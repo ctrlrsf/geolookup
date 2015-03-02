@@ -17,6 +17,6 @@ go install github.com/ctrlrsf/geolookup
 ## Sample usage
 
 ```
-$ geolookup -countrydb ~/GeoLite2-Country.mmdb -ipv4 8.8.8.8 -country
+$ geolookup --countrydb ~/GeoLite2-Country.mmdb --country --ipv4Address 8.8.8.8
 United States
 ```
