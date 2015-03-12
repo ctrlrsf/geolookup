@@ -17,6 +17,8 @@ go install github.com/ctrlrsf/geolookup
 ## Sample usage
 
 ```
-$ geolookup --countrydb ~/GeoLite2-Country.mmdb --country --ipv4Address 8.8.8.8
+$ geolookup --update  # Downloads GeoLite2-Country.mmdb file to CWD
+
+$ geolookup --country --ipv4 8.8.8.8
 United States
 ```
