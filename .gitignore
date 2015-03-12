@@ -25,3 +25,5 @@ _testmain.go
 
 # Ignore go binary
 geolookup
+# Ignore GeoLite2 Country database
+GeoLite2-Country.mmdb
