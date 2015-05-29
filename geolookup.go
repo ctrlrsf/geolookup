@@ -23,7 +23,7 @@ func main() {
 	app.Author = "Rene Fragoso"
 	app.Email = "ctrlrsf@gmail.com"
 	app.Version = version
-	app.Usage = "Quick tool for querying Maxmind Geo IP database file"
+	app.Usage = "Download and query Maxmind Geo IP database file"
 
 	app.Flags = []cli.Flag{
 		cli.BoolFlag{
